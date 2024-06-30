@@ -1,0 +1,238 @@
+algoritmo,rank_test_score,params,mean_test_score,std_test_score,tiempo_entrenamiento,fecha_hora_fin_entrenamiento
+Regresión Logística,1,"{'C': 1, 'solver': 'liblinear'}",0.9285425421000412,0.002918140235805021,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,2,"{'C': 1, 'solver': 'lbfgs'}",0.9285135435523848,0.0028864502384436095,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,3,"{'C': 100, 'solver': 'lbfgs'}",0.9285127462325773,0.0028895953695790722,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,4,"{'C': 10, 'solver': 'lbfgs'}",0.928510904106375,0.002879255399495086,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,5,"{'C': 10, 'solver': 'liblinear'}",0.9284953179251676,0.002869792025792498,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,6,"{'C': 100, 'solver': 'liblinear'}",0.9284911459150965,0.002862096776169711,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,7,"{'C': 0.1, 'solver': 'lbfgs'}",0.9283461891666558,0.002902450193047359,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,8,"{'C': 0.1, 'solver': 'liblinear'}",0.9282551538781247,0.003221077556041457,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,9,"{'C': 0.01, 'solver': 'lbfgs'}",0.9246207307828321,0.0030006321078852724,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Regresión Logística,10,"{'C': 0.01, 'solver': 'liblinear'}",0.9230468580793023,0.004078662261892093,0 days 00:00:02.795814,2024-06-30 12:40:34.189073
+Gaussian Naive Bayes,1,{'var_smoothing': np.float64(1e-09)},0.923003137337145,0.0030718252565605886,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,1,{'var_smoothing': np.float64(1e-08)},0.923003137337145,0.0030718252565605886,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,1,{'var_smoothing': np.float64(1e-07)},0.923003137337145,0.0030718252565605886,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,4,{'var_smoothing': np.float64(1e-06)},0.9230030759828406,0.003071771652047712,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,5,{'var_smoothing': np.float64(1e-05)},0.9230028919821256,0.003072067866625319,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,6,{'var_smoothing': np.float64(0.0001)},0.9230024627738407,0.0030708355978112845,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,7,{'var_smoothing': np.float64(0.001)},0.9229866993359087,0.003064470950772106,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,8,{'var_smoothing': np.float64(0.01)},0.9228149575470137,0.0030392927743269917,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,9,{'var_smoothing': np.float64(0.1)},0.9210067910033699,0.0029050297122419086,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Gaussian Naive Bayes,10,{'var_smoothing': np.float64(1.0)},0.9120336998269298,0.0031151581221608255,0 days 00:00:00.577031,2024-06-30 12:40:44.375987
+Random Forest,1,"{'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 500}",0.9913006150555805,0.0011593542997465284,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,2,"{'criterion': 'entropy', 'max_depth': 30, 'n_estimators': 500}",0.9911703373860611,0.0011963313695881645,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,3,"{'criterion': 'entropy', 'max_depth': 30, 'n_estimators': 200}",0.9911555519812023,0.0012022455884462867,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,4,"{'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 200}",0.9910373086860584,0.0012277544909897163,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,5,"{'criterion': 'gini', 'max_depth': 30, 'n_estimators': 500}",0.990980499565104,0.0011797063510691932,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,6,"{'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 100}",0.9908993770034767,0.0011517511671207444,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,7,"{'criterion': 'gini', 'max_depth': 20, 'n_estimators': 500}",0.9908852535590131,0.0012194981501033198,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,8,"{'criterion': 'gini', 'max_depth': 30, 'n_estimators': 200}",0.9907858442510588,0.001362035334767232,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,9,"{'criterion': 'entropy', 'max_depth': 30, 'n_estimators': 100}",0.9907113730477549,0.0010043487020083856,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,10,"{'criterion': 'gini', 'max_depth': 20, 'n_estimators': 200}",0.9906593365607469,0.0011727503221364806,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,11,"{'criterion': 'gini', 'max_depth': 30, 'n_estimators': 100}",0.9905037985369347,0.0011521935617408094,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,12,"{'criterion': 'gini', 'max_depth': 20, 'n_estimators': 100}",0.9900977607442238,0.001403147175379876,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,13,"{'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 500}",0.9888221898162408,0.0012019192914398426,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,14,"{'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 200}",0.9885737858494228,0.0012578340190578967,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,15,"{'criterion': 'gini', 'max_depth': 10, 'n_estimators': 500}",0.9885069786259295,0.0011401192127061658,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,16,"{'criterion': 'gini', 'max_depth': 10, 'n_estimators': 200}",0.9883543437889906,0.0011390254191995847,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,17,"{'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 100}",0.9883435794952243,0.0012286079952799932,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+Random Forest,18,"{'criterion': 'gini', 'max_depth': 10, 'n_estimators': 100}",0.9882440674404809,0.001129452744904428,0 days 00:07:09.644799,2024-06-30 12:48:01.607354
+SVM,1,"{'C': 10, 'kernel': 'rbf'}",0.9847136354090494,0.00239810692871893,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,2,"{'C': 10, 'kernel': 'poly'}",0.9825942055637737,0.0025570776012599564,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,3,"{'C': 1, 'kernel': 'poly'}",0.9819308336685426,0.002041803075190905,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,4,"{'C': 1, 'kernel': 'rbf'}",0.9816058669122866,0.0024153600132442218,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,5,"{'C': 100, 'kernel': 'rbf'}",0.9802759664072276,0.0029306056314796058,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,6,"{'C': 100, 'kernel': 'poly'}",0.9771148448790313,0.0018106917213246692,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,7,"{'C': 0.1, 'kernel': 'poly'}",0.9770050419979412,0.001985707186861973,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,8,"{'C': 0.1, 'kernel': 'rbf'}",0.9677992861857513,0.002057535676377835,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,9,"{'C': 0.1, 'kernel': 'linear'}",0.928606653182032,0.0029403612051842566,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,10,"{'C': 1, 'kernel': 'linear'}",0.9285511641174662,0.0029477908653177255,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,11,"{'C': 100, 'kernel': 'linear'}",0.9285387171814641,0.0029488783510584152,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+SVM,12,"{'C': 10, 'kernel': 'linear'}",0.9285319711629108,0.0029381880382966007,0 days 00:11:09.105028,2024-06-30 12:59:18.126277
+LDA,1,{'solver': 'svd'},0.9265901382594304,0.0030634674540134456,0 days 00:00:00.347090,2024-06-30 12:59:47.701452
+LDA,1,{'solver': 'lsqr'},0.9265901382594304,0.0030634674540134456,0 days 00:00:00.347090,2024-06-30 12:59:47.701452
+LDA,3,{'solver': 'eigen'},,,0 days 00:00:00.347090,2024-06-30 12:59:47.701452
+Decision Tree,1,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9802836860630892,0.001509613225617026,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,2,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9796431357189037,0.0014785402354275789,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,3,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9793899654574671,0.0012721642272617228,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,3,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9793899654574671,0.0012721642272617228,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,5,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9793344190583995,0.001936366549764416,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,6,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9784614608155368,0.0013170069624202797,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,7,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9779692126748379,0.001796641328146371,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,8,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9777554600318036,0.0018590283947479017,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,9,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.977053518620117,0.0017811040974921837,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,10,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9754819956503947,0.004317984537683386,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,11,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9737541897616933,0.0038195576913119494,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,12,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9736103485867066,0.0044719227132325665,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,12,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9736103485867066,0.0044719227132325665,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,14,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9715933779197607,0.003891115392045514,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,15,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9706879072601889,0.0032447988304746584,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,16,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9698702113607084,0.003082061856556158,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,17,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9683011855597032,0.0028636165555115125,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,18,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9673240733666244,0.0023550304364662626,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,19,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9644118063453014,0.0019742634581019205,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,20,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9632887332785026,0.002597115540364287,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,20,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9632887332785026,0.002597115540364287,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,20,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9632887332785026,0.002597115540364287,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,23,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9623746265521932,0.0019592434629955064,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,23,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9623746265521932,0.0019592434629955064,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,25,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9610124990371484,0.0015832854919790368,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,25,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9610124990371484,0.0015832854919790368,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,25,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9610124990371484,0.0015832854919790368,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,25,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9610124990371484,0.0015832854919790368,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,25,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9610124990371484,0.0015832854919790368,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,25,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9610124990371484,0.0015832854919790368,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,31,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9599001046957714,0.0022466338766043994,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,32,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9584887650729398,0.0007950378745740026,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,33,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9583771613365595,0.0041790742056217675,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,33,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9583771613365595,0.0041790742056217675,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,33,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9583771613365595,0.0041790742056217675,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,36,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}",0.9581881470443427,0.0039380521308948375,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,37,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9575689514335408,0.001141186806749293,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,37,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9575689514335408,0.001141186806749293,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,37,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9575689514335408,0.001141186806749293,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,40,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9557368958453203,0.003617116432518155,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,40,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9557368958453203,0.003617116432518155,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,42,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9556253376101959,0.0007612162167095026,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,42,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9556253376101959,0.0007612162167095026,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,42,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9556253376101959,0.0007612162167095026,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,45,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9554590243833518,0.003645642520554578,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,45,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9554590243833518,0.003645642520554578,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,45,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9554590243833518,0.003645642520554578,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,45,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9554590243833518,0.003645642520554578,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,45,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.9554590243833518,0.003645642520554578,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,45,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 5}",0.9554590243833518,0.003645642520554578,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,51,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9550463552786826,0.003913728207915284,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,52,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9549061664358398,0.004112950499573785,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,52,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9549061664358398,0.004112950499573785,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,52,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.9549061664358398,0.004112950499573785,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,55,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9502781272658393,0.004982174928597754,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,55,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9502781272658393,0.004982174928597754,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,55,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9502781272658393,0.004982174928597754,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,58,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.9502074727190635,0.004944655895422928,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,59,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9487694865283723,0.0034086079379480622,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,60,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9470396178241526,0.002465624206680111,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,61,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9468646002256875,0.002412237646819603,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,61,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9468646002256875,0.002412237646819603,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,61,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9468646002256875,0.002412237646819603,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,64,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9459305205748567,0.002970577572881925,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,65,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9450649120782899,0.002229623577801742,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,65,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9450649120782899,0.002229623577801742,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,65,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9450649120782899,0.002229623577801742,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,68,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9432244664979063,0.0019948138577040152,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,68,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9432244664979063,0.0019948138577040152,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,68,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9432244664979063,0.0019948138577040152,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,71,"{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.942190603386462,0.002986034557113073,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,72,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9405179674178685,0.004561007766390357,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,73,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9404047376254517,0.003403575535376493,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,73,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9404047376254517,0.003403575535376493,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,73,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.9404047376254517,0.003403575535376493,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,76,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9389879050885387,0.0031093414294272852,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,76,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9389879050885387,0.0031093414294272852,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,76,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9389879050885387,0.0031093414294272852,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,79,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}",0.9386352505418818,0.004459932400812833,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,80,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9361594421111459,0.003018976173688728,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,80,"{'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9361594421111459,0.003018976173688728,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,80,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9361594421111459,0.003018976173688728,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,83,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9361377852807197,0.0032235761254483155,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,83,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9361377852807197,0.0032235761254483155,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,83,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9361377852807197,0.0032235761254483155,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,86,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.9351513507867162,0.004402717183058914,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,87,"{'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9261198344408712,0.0050948435146616665,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,87,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9261198344408712,0.0050948435146616665,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,87,"{'criterion': 'gini', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9261198344408712,0.0050948435146616665,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+Decision Tree,90,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}",0.9247797701490535,0.004262662703092124,0 days 00:00:44.663784,2024-06-30 13:00:38.369718
+QDA,1,{'reg_param': 0.1},0.9307558110782018,0.003378887095253956,0 days 00:00:00.411806,2024-06-30 13:02:29.257823
+QDA,2,{'reg_param': 0.5},0.9144418546921127,0.0034805340901524237,0 days 00:00:00.411806,2024-06-30 13:02:29.257823
+QDA,3,{'reg_param': 0.0},0.9122969440524427,0.009305640549245873,0 days 00:00:00.411806,2024-06-30 13:02:29.257823
+QDA,4,{'reg_param': 1.0},0.9038500553304143,0.0037071126399730358,0 days 00:00:00.411806,2024-06-30 13:02:29.257823
+AdaBoost,1,"{'learning_rate': 1, 'n_estimators': 200}",0.9792739356180077,0.002604402721393337,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,2,"{'learning_rate': 1, 'n_estimators': 100}",0.9788350613586445,0.0027371778138440307,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,3,"{'learning_rate': 1, 'n_estimators': 50}",0.9774481904399883,0.0029053457438148345,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,4,"{'learning_rate': 0.1, 'n_estimators': 200}",0.9742712032231475,0.0023175238571949124,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,5,"{'learning_rate': 0.1, 'n_estimators': 100}",0.9693520799075671,0.0026991868850742623,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,6,"{'learning_rate': 0.1, 'n_estimators': 50}",0.9582840164456613,0.0033123457966837185,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,7,"{'learning_rate': 0.01, 'n_estimators': 200}",0.9297308313502384,0.003963936755924176,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,8,"{'learning_rate': 0.01, 'n_estimators': 100}",0.9093537561394319,0.005294425035517046,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+AdaBoost,9,"{'learning_rate': 0.01, 'n_estimators': 50}",0.8627755514280505,0.0047316454277765,0 days 00:01:23.896445,2024-06-30 13:04:00.259054
+Gradient Boosting,1,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}",0.9937806389393765,0.0008479841104224377,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,2,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100}",0.9934582762263581,0.0009006316173649203,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,3,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",0.993438929322404,0.000933478295958229,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,4,"{'learning_rate': 0.5, 'max_depth': 7, 'n_estimators': 200}",0.9933987993986862,0.0008903436895207544,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,5,"{'learning_rate': 0.5, 'max_depth': 7, 'n_estimators': 100}",0.992949844341724,0.001084786235822773,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,6,"{'learning_rate': 0.5, 'max_depth': 5, 'n_estimators': 200}",0.9925507057935983,0.0008965322530868896,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,7,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}",0.9924984438285623,0.0011171799099737236,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,8,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 50}",0.9923783997404676,0.0009995417344686726,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,9,"{'learning_rate': 0.5, 'max_depth': 7, 'n_estimators': 50}",0.9923294481821671,0.0012587227985648628,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,10,"{'learning_rate': 0.5, 'max_depth': 5, 'n_estimators': 100}",0.9921860259128398,0.0010877972837526867,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,11,"{'learning_rate': 0.5, 'max_depth': 5, 'n_estimators': 50}",0.9919196470916175,0.0013774378670851166,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,12,"{'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 100}",0.9916563823300144,0.0014780608221273979,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,13,"{'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 200}",0.9916250983387599,0.0015284827209101992,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,14,"{'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}",0.9910973768723468,0.0017124809129350318,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,15,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}",0.9909165258654118,0.0012451166638961046,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,16,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 50}",0.9905562339191819,0.0011828210740043963,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,17,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.9892622469665868,0.001063503907047848,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,18,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",0.9880706513597556,0.0013920203220698958,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,19,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 100}",0.987070905552826,0.0014532915316154763,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,20,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}",0.9837733407581496,0.0014959010602841323,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,21,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 50}",0.9836010683499277,0.0015493864357971803,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,22,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",0.9835133949654518,0.0010534400243639858,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,23,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",0.9767921974533458,0.0009188976934900727,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,24,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200}",0.9734512155705219,0.0013630681843226661,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,25,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 50}",0.9733808210985156,0.001560753983724356,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,26,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",0.9661279039148614,0.0012298327036814273,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+Gradient Boosting,27,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50}",0.9348543498347516,0.0028065821128728814,0 days 00:14:29.094706,2024-06-30 13:18:43.738492
+XGBoost,1,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}",0.9939369380670889,0.0007503878261491472,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,2,"{'learning_rate': 0.3, 'max_depth': 7, 'n_estimators': 100}",0.9935996548045276,0.0008653299548608205,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,3,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100}",0.9935027236147018,0.0007110937277899548,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,4,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",0.9934515932558456,0.0008778636777973976,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,5,"{'learning_rate': 0.3, 'max_depth': 7, 'n_estimators': 200}",0.9934106773602641,0.0009110888315250773,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,6,"{'learning_rate': 0.3, 'max_depth': 7, 'n_estimators': 50}",0.9933976477005517,0.0008946588025003972,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,7,"{'learning_rate': 0.3, 'max_depth': 5, 'n_estimators': 200}",0.9932768873625223,0.0008016203846159614,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,8,"{'learning_rate': 0.3, 'max_depth': 5, 'n_estimators': 100}",0.9932220431571602,0.0008051691544814613,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,9,"{'learning_rate': 0.3, 'max_depth': 5, 'n_estimators': 50}",0.9928318695773315,0.0008503341603097972,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,10,"{'learning_rate': 0.3, 'max_depth': 3, 'n_estimators': 200}",0.9924601230540823,0.0008698665075645183,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,11,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}",0.9923817902688654,0.0009496181958930831,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,12,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 50}",0.9921653414992431,0.0007892728811753579,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,13,"{'learning_rate': 0.3, 'max_depth': 3, 'n_estimators': 100}",0.9919213515059011,0.001064540324111724,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,14,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}",0.9909423496283679,0.0011281205562079673,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,15,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 50}",0.9901078248852844,0.0009986289170884205,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,16,"{'learning_rate': 0.3, 'max_depth': 3, 'n_estimators': 50}",0.9900206999784749,0.001020262885333671,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,17,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.9890189329386809,0.0010291278926429532,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,18,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",0.9878480575640312,0.0013978515846317222,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,19,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 100}",0.9865482312330135,0.0009744830345485506,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,20,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",0.9844522184494553,0.0012138838207012548,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,21,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}",0.9835779532311696,0.001424269422260988,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,22,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 50}",0.9828066581582048,0.0012178035980410897,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,23,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",0.9765883144151895,0.0015054377734885287,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,24,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200}",0.9742383569114607,0.0012358541738466142,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,25,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 50}",0.9729257140982763,0.001645189737524461,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,26,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",0.9674032698356037,0.001589489083973351,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+XGBoost,27,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50}",0.934422629042929,0.002932400625447598,0 days 00:00:22.984750,2024-06-30 13:21:02.578448
+LightGBM,1,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}",0.9937663878445445,0.0009213787616639234,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,2,"{'learning_rate': 0.3, 'max_depth': 7, 'n_estimators': 50}",0.9935621822773267,0.0009971609490692739,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,3,"{'learning_rate': 0.3, 'max_depth': 7, 'n_estimators': 100}",0.9935395739799976,0.0010887220308760084,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,4,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100}",0.9935023613922084,0.0009601641529362685,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,5,"{'learning_rate': 0.3, 'max_depth': 7, 'n_estimators': 200}",0.9934756737818088,0.0008655262049812145,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,6,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",0.9934464013637543,0.0008147383212200191,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,7,"{'learning_rate': 0.3, 'max_depth': 5, 'n_estimators': 200}",0.9932284678548038,0.0010315232182522493,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,8,"{'learning_rate': 0.3, 'max_depth': 5, 'n_estimators': 100}",0.9931048685508083,0.0010183703329048521,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,9,"{'learning_rate': 0.3, 'max_depth': 5, 'n_estimators': 50}",0.9929674686575967,0.0008388472166483131,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,10,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}",0.9925291609555067,0.0008431014553885589,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,11,"{'learning_rate': 0.3, 'max_depth': 3, 'n_estimators': 200}",0.9924436279599842,0.0011457240478521902,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,12,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 50}",0.9921703351598415,0.0011002978729888508,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,13,"{'learning_rate': 0.3, 'max_depth': 3, 'n_estimators': 100}",0.9917901094598159,0.0012410671420206606,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,14,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}",0.9912106164903669,0.0010808159262829212,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,15,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 50}",0.99018286920387,0.0009283863638355008,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,16,"{'learning_rate': 0.3, 'max_depth': 3, 'n_estimators': 50}",0.9898595195124006,0.001143925225299336,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,17,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.9887462893956712,0.0009710653674027843,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,18,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",0.9878587599243291,0.0014926165409274393,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,19,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 100}",0.9854095640408636,0.0014286345155262114,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,20,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",0.9845858348576952,0.0010626539495406562,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,21,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}",0.9836622243486153,0.0015285731755322603,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,22,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 50}",0.9811712209230554,0.0013191674975795962,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,23,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",0.9761630961396142,0.0010497779447461771,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,24,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200}",0.9742605764426153,0.0012624386437748863,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,25,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 50}",0.9723419457346043,0.0011000225129785953,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,26,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",0.9675247554804027,0.00156028067589499,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
+LightGBM,27,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50}",0.9345148780080409,0.003081144453784026,0 days 00:00:16.224095,2024-06-30 13:23:10.012921
